@@ -1,0 +1,5 @@
+filename,label,scenario,source_relative_path,reason
+Normal (22).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (22).mp4,Occasional approach validation
+Normal (31).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (31).mp4,Multiple-product validation case
+Shoplifting (5).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (5).mp4,Occasional approach validation
+Shoplifting (7).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (7).mp4,Backpack validation case

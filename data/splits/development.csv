@@ -1,0 +1,15 @@
+filename,label,scenario,source_relative_path,reason
+Normal (4).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (4).mp4,Development and tuning
+Normal (5).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (5).mp4,Development and tuning
+Normal (6).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (6).mp4,Development and tuning
+Normal (10).mp4,NORMAL,normal_restock,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (10).mp4,Known restocking stress test already used during logic development
+Normal (14).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (14).mp4,Development and tuning
+Normal (35).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (35).mp4,Previously used during shelf-threshold development
+Normal (36).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (36).mp4,Development and tuning
+Shoplifting (1).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (1).mp4,Primary no-backpack development case
+Shoplifting (2).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (2).mp4,Previously used during shelf-threshold development
+Shoplifting (3).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (3).mp4,Development and tuning
+Shoplifting (4).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (4).mp4,Development and tuning
+Shoplifting (6).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (6).mp4,Backpack-context development case
+Shoplifting (10).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (10).mp4,Development and tuning
+Shoplifting (13).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (13).mp4,Development and tuning

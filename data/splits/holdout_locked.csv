@@ -1,0 +1,5 @@
+filename,label,scenario,source_relative_path,reason
+Normal (20).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (20).mp4,Locked final evaluation
+Normal (38).mp4,NORMAL,normal_return,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Normal Good data/Normal (38).mp4,Locked final evaluation
+Shoplifting (8).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (8).mp4,Locked final evaluation
+Shoplifting (9).mp4,SHOPLIFTING,shoplifting_removal,Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/Dataset/Shoplifitng Good Data/Shoplifting (9).mp4,Locked final evaluation

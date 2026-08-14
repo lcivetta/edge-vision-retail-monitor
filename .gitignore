@@ -1,0 +1,29 @@
+.DS_Store
+.venv/
+.ultralytics/
+.matplotlib/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.env.*
+
+# Pretrained weights are downloaded locally by Ultralytics.
+*.pt
+*.onnx
+*.engine
+
+# Cited source media is downloaded separately; it is not part of this repo.
+Shoplifting Dataset (2022) - CV Laboratory MNNIT Allahabad/
+
+# Local and uploaded media.
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Generated inference artifacts and private manager-review records.
+output/
+feedback/*.csv
+tmp/

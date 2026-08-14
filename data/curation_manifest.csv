@@ -1,0 +1,23 @@
+filename,curated_label,selection_source,object_flow,scenario,evidence,confidence
+Normal (4).mp4,GOOD_NORMAL,user_seed,returned,normal_return,User-selected reference clip,reference
+Normal (6).mp4,GOOD_NORMAL,user_seed,returned,normal_return,User-selected reference clip,reference
+Normal (14).mp4,GOOD_NORMAL,user_seed,returned,normal_return,User-selected reference clip,reference
+Normal (5).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Dark handheld product visibly moves back to table,high
+Normal (10).mp4,NORMAL_RESTOCK,visual_review,added_to_table,normal_restock,Clip begins with product already in hand and shows it being added to the merchandise area; retained as a stress test,high
+Normal (20).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Product is lifted examined and returned to table,high
+Normal (22).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Product remains visible through handling and is placed back,high
+Normal (31).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Multiple products handled and returned before person leaves,high
+Normal (35).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Product handled then returned before person steps away,high
+Normal (36).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Product handled returned and person exits the interaction,high
+Normal (38).mp4,GOOD_NORMAL,visual_review,returned,normal_return,Product handled at display and left on table before departure,medium
+Shoplifting (3).mp4,GOOD_SHOPLIFTING,user_seed,not_returned,shoplifting_removal,User-selected reference clip,reference
+Shoplifting (4).mp4,GOOD_SHOPLIFTING,user_seed,not_returned,shoplifting_removal,User-selected reference clip,reference
+Shoplifting (10).mp4,GOOD_SHOPLIFTING,user_seed,not_returned,shoplifting_removal,User-selected reference clip,reference
+Shoplifting (13).mp4,GOOD_SHOPLIFTING,user_seed,not_returned,shoplifting_removal,User-selected reference clip,reference
+Shoplifting (1).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product moves from table toward pocket and is not visibly returned,high
+Shoplifting (2).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product removed concealed near clothing and person leaves,high
+Shoplifting (5).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product removed toward pocket and remains absent,high
+Shoplifting (6).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product interaction occurs beside backpack and person leaves without return,medium
+Shoplifting (7).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product moves into open backpack and is not returned,high
+Shoplifting (8).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product moves from display into open backpack,high
+Shoplifting (9).mp4,GOOD_SHOPLIFTING,visual_review,not_returned,shoplifting_removal,Product moves from display into open backpack and remains absent,high
