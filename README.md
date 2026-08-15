@@ -107,6 +107,20 @@ Local inference can reduce dependence on continuous cloud connectivity, video tr
 
 A future NVIDIA path could preserve the product architecture while moving inference to an NVIDIA GPU or Jetson, then evaluating TensorRT optimization and a DeepStream pipeline. A future VLM should inspect only selected alert clips after the inexpensive detector/tracker/rule stage, not every frame.
 
+## Future markets and product vision
+
+The long-term opportunity is not simply a more aggressive surveillance system. It is a practical assistant that reduces the monitoring burden on people who cannot watch every camera while also serving customers: convenience-store clerks, independent shop owners, small tourist and gift shops, and other businesses with limited staff. Instead of declaring that theft occurred, the system can organize a small number of explainable moments for a person to review.
+
+The same architecture can scale by deployment tier:
+
+- **Independent retailers:** a privacy-conscious, single-camera edge appliance that works with existing cameras and sends concise review events without requiring a dedicated security team.
+- **Convenience and multi-zone stores:** several cameras, shared product-state history, shift-level summaries, and optional connections to point-of-sale or inventory systems.
+- **Large retailers such as apparel chains:** multi-store fleet management, role-based review workflows, store-layout configuration, APIs, health monitoring, and measured GPU acceleration across many concurrent streams.
+
+Future sensor fusion could make decisions faster and more reliable than video alone. Shelf weight or pressure sensors can verify that inventory physically changed; RFID or NFC can identify an item; infrared, depth, or low-light cameras can improve visibility; and door, checkout, or point-of-sale events can distinguish an unresolved product from a completed purchase. These signals should corroborate one another rather than make a single noisy sensor authoritative.
+
+This makes the project potentially **scalable and integrable**, but those capabilities still require field testing. A responsible product would minimize retained video, process locally when practical, restrict access, measure performance across stores and demographics, and keep a human responsible for any intervention. See [PRODUCT_VISION.md](PRODUCT_VISION.md) for the proposed market tiers, technical roadmap, and success measures.
+
 ## Later: device benchmark
 
 Run `benchmark.py` to write actual measurements to `output/benchmark_results.csv`. It uses the same model, frames, confidence, and trials on each available device, excludes output-video writing, and warms up first. An unavailable or failed MPS path is recorded explicitly rather than replaced with invented numbers.

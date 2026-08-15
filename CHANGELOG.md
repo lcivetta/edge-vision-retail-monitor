@@ -35,3 +35,4 @@
 - Added pose-based table-to-bag wrist trajectories for small unknown products: table contact followed by wrist entry into a detected bag within four seconds triggers immediate concealment review.
 - Preserved terminal concealment risk after person-track expiration and recorded Shoplifting 22 as manager-confirmed theft rather than follow-up.
 - Published a frozen four-video holdout evaluation: 4/4 correct video-level review decisions, 1,335 frames, and 10.16 FPS aggregate CPU throughput; documented the small-sample limitation and intermediate product-state errors.
+- Added a market and product roadmap spanning independent retailers through large store fleets, with sensor fusion, NVIDIA edge optimization, integration, privacy, and operational success measures clearly separated from current capabilities.
