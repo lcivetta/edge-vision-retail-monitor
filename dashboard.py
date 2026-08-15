@@ -157,7 +157,16 @@ def render_review_queue() -> None:
     queue_a.metric("Total events", len(events))
     queue_b.metric("Pending", pending)
     queue_c.metric("Reviewed", len(events) - pending)
-    filter_status = st.selectbox("Show", ["All", "Pending", "Reviewed ✓", "Dismissed ✕", "Needs follow-up"])
+    filter_left, filter_right = st.columns([1, 1])
+    with filter_left:
+        filter_status = st.selectbox("Show", ["All", "Pending", "Reviewed ✓", "Dismissed ✕", "Needs follow-up"])
+    with filter_right:
+        open_cards = st.toggle(
+            "Show videos",
+            value=True,
+            help="Open review cards so their annotated videos are immediately visible.",
+        )
+    st.caption("Each review video is stored inside its event card. Turn off Show videos to collapse reviewed footage and make the page lighter.")
     for event in events:
         existing = statuses.get(event["review_key"], {})
         current_status = existing.get("status", "Pending")
@@ -166,7 +175,7 @@ def render_review_queue() -> None:
         score = float(event.get("risk_score") or 0)
         threat = threat_label(score)
         title = f'{threat} · Risk {score:.2f} · {current_status} · {event["run_name"]} · {event.get("event_id", "EVENT")}'
-        with st.expander(title, expanded=current_status == "Pending"):
+        with st.expander(title, expanded=open_cards or current_status == "Pending"):
             st.subheader(f"Threat level: {threat}")
             st.markdown(f'**Why it was flagged:** {risk_explanation(event.get("active_signals", ""))}')
             st.caption(
