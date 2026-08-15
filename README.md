@@ -24,6 +24,12 @@ This opens an OpenCV window containing the same annotated frames written to the 
 
 Curated videos are assigned by whole video in `data/splits/`: development for iteration, validation for occasional checks, a locked holdout for final evaluation, excluded/quarantine for unusable clips, and future intake for genuinely new data. Original media is not moved or duplicated. See `data/splits/README.md` before changing the algorithm or evaluating accuracy.
 
+## Test results
+
+On August 14, 2026, the current pipeline was frozen and run once across the four-video locked holdout: two normal-return videos and two shoplifting videos. It made the correct video-level review decision on **4/4 clips (100%)**, with **0 false positives** and **0 false negatives**. Both shoplifting clips reached risk `0.75` after positive table-to-bag trajectory evidence; both normal clips remained at `0.00`. The full end-to-end pipeline processed 1,335 frames at an aggregate throughput of **10.16 FPS on an Apple M3 CPU**. The software regression suite also passes **10/10 tests**.
+
+This is a small, controlled holdout smoke evaluation—not a production accuracy claim. Four staged videos do not establish generalization, and intermediate product-state tracking still showed errors even when the final decision was correct. See [TEST_RESULTS.md](TEST_RESULTS.md) for the per-video results, methodology, observed failure behavior, and next evaluation steps.
+
 ## Problem and goal
 
 Camera operators cannot continuously inspect every person and event in every feed. This understandable local prototype uses observable video events to surface moments that may deserve human review. It never determines that a person is a thief, shoplifter, criminal, or dangerous.

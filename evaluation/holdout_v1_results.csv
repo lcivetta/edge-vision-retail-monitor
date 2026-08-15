@@ -1,0 +1,5 @@
+video,expected_label,system_outcome,max_risk,review_signal,result,frames,processing_fps
+Normal (20).mp4,NORMAL,NO_REVIEW,0.00,none,PASS,350,10.20
+Normal (38).mp4,NORMAL,NO_REVIEW,0.00,none,PASS,315,9.76
+Shoplifting (8).mp4,SHOPLIFTING,REVIEW,0.75,CONCEALED table-to-bag trajectory,PASS,316,9.80
+Shoplifting (9).mp4,SHOPLIFTING,REVIEW,0.75,CONCEALED table-to-bag trajectory,PASS,354,10.88
